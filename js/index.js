@@ -201,7 +201,7 @@ $(function () {
     if (name.value == "" || email.value == "") {
       alert("Ensure you input a value in both fields!");
     } else {
-      fetch("http://localhost:8000/submit", {
+      fetch("https://message-mtdl.onrender.com/submit", {
         method: "POST",
         body: JSON.stringify({
           name: name,
